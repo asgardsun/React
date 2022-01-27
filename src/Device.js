@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Device({mydevice}){
-    console.log(JSON.stringify(mydevice));
-    return <div>My {mydevice}</div>;
+function Device(data){
+    console.log(JSON.stringify(data));
+    return <div>My {data.mydevice},{data.myfavoritecharacter}</div>;
 }
 
 export default Device;
